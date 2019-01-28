@@ -46,6 +46,7 @@ public class N15683 {
 	}
 
 	public static void dfs(int depth, int[][] table) {
+		//조합 알고리즘 
 		if (depth == cctvList.size()) { // cctv 개수만큼 탐색을 돌았을 때 
 //			for(int aa=0; aa<N; aa++) {
 //				for(int j=0; j<M; j++) {
